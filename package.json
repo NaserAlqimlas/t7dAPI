@@ -1,0 +1,16 @@
+{
+  "name": "t7dAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NaserAlqimlas/t7dAPI.git",
+  "author": "NaserAlqimlas <naser.alqimlas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.14"
+  }
+}
