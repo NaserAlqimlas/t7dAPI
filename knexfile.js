@@ -1,10 +1,15 @@
 // Update with your config settings.
+require("dotenv").config();
+
 module.exports = {
   development: {
     client: "pg",
-    connection: process.env.DB_CONNECTION,
-    ssl: {
-      rejectUnauthorized: false,
+    connection: process.env.PSQL_DEV_CONNECTION,
+  },
+  test: {
+    development: {
+      client: "pg",
+      connection: process.env.PSQL_TEST_CONNECTION,
     },
   },
 };

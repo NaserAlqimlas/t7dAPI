@@ -15,5 +15,10 @@
     "lodash": "^4.17.21",
     "nodemon": "^2.0.14",
     "pg": "7.12.1"
+  },
+  "devDependencies": {
+    "chia": "^0.0.1",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
   }
 }
