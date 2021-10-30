@@ -7,9 +7,7 @@ module.exports = {
     connection: process.env.PSQL_DEV_CONNECTION,
   },
   test: {
-    development: {
-      client: "pg",
-      connection: process.env.PSQL_TEST_CONNECTION,
-    },
+    client: "pg",
+    connection: process.env.PSQL_TEST_CONNECTION,
   },
 };

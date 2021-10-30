@@ -10,8 +10,10 @@ TODO:
 
 app.use(express.json());
 // routes relating to events CRUD
-app.use("/events", require("./routes/events"));
+app.use("/api/v1/events", require("./routes/events"));
 
 app.listen(process.env.PORT, () =>
   console.log(`Server started on port: ${process.env.PORT}`)
 );
+
+module.exports = app;
