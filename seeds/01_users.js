@@ -8,8 +8,8 @@ exports.seed = function (knex) {
         {
           first_name: "Naser",
           last_name: "Alqimlas",
-          telephone: "0096566772000",
-          email: "nasserq22@gmail.com",
+          telephone: "0096566776688",
+          email: "supernasser@gmail.com",
           age: "24",
         },
         {
